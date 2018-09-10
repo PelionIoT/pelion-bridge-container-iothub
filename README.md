@@ -22,8 +22,7 @@ Once the container instance is live, you must configure the bridge and bind it b
 
 1). Please go to your Azure dashboard and create an IoTHub instance. Note your IoTHub name.
 
-2). Please create a SAS Token for your IoTHub Owner ... Make the token good for awhile... 
-    Reference: https://azure.microsoft.com/en-us/documentation/articles/iot-hub-sas-tokens/
+2). Make a copy to your clipboard of your IoTHub's "iothubowner" primary key connection string
 
 3). Next go to https://os.mbed.com and create your mbed Account. You can then request a Pelion developer account using the same credentials at https://portal.us-east-1.mbedcloud.com
 
@@ -31,9 +30,7 @@ Once the container instance is live, you must configure the bridge and bind it b
 
 Now that you have your:
 
-    - IoTHub Name
-
-    - IoTHub Owner SAS Token generated for a suitable length of time
+    - IoTHub "iothubown" primary key connection string
 
     - Pelion API Key/Token generated
 
@@ -43,17 +40,17 @@ Go to:  https://[[your containers public IP address]]:8234
 
     - password: "admin" (no quotes)
 
-Enter each of IoTHub name, SAS Token, and Pelion API Token
+Enter each : IoTHub "iothubown" connection string, and the Pelion API Token
 
     - Please press "SAVE" after *each* is entered... 
 
-    - After all 3 are entered and saved, press "RESTART"
+    - After both are entered and saved, press "RESTART"
 
 Your Pelion bridge should now be configured and operational. 
 
 Bridge source (Apache 2.0 licensed - Enjoy!): https://github.com/ARMmbed/pelion-bridge.git
 
-Copyright 2017. ARM Ltd. All rights reserved.
+Copyright 2018. ARM Ltd. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
