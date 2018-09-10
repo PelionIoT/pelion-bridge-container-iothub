@@ -20,9 +20,9 @@ Container Bridge Instance Installation:
 
 Once the container instance is live, you must configure the bridge and bind it between your mbed Pelion account and your IoTHub Account in Azure. 
 
-1). Please go to your Azure dashboard and create an IoTHub instance. Note your IoTHub name.
+1). Please go to your Azure dashboard and create an IoTHub instance.
 
-2). Make a copy to your clipboard of your IoTHub's "iothubowner" primary key connection string
+2). From your IoTHub dashboard in Azure, copy to your clipboard your IoTHub's "iothubowner" primary key connection string. Record the connection string.
 
 3). Next go to https://os.mbed.com and create your mbed Account. You can then request a Pelion developer account using the same credentials at https://portal.us-east-1.mbedcloud.com
 
@@ -30,7 +30,7 @@ Once the container instance is live, you must configure the bridge and bind it b
 
 Now that you have your:
 
-    - IoTHub "iothubown" primary key connection string
+    - IoTHub "iothubowner" primary key connection string
 
     - Pelion API Key/Token generated
 
@@ -40,7 +40,7 @@ Go to:  https://[[your containers public IP address]]:8234
 
     - password: "admin" (no quotes)
 
-Enter each : IoTHub "iothubown" connection string, and the Pelion API Token
+Enter both your IoTHub "iothubowner" connection string and the Pelion API Token
 
     - Please press "SAVE" after *each* is entered... 
 
