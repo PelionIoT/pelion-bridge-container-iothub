@@ -1,5 +1,7 @@
 arm PELION Device Shadow bridge for Microsoft IoTHub                  
   
+10/26/2018: updated bridge - IoTHub device prefixing now defaulted to enabled
+
 10/26/2018: updated bridge - device shadow deletion message cleanups, misc configuration tweaks
 
 10/20/2018: updated bridge - misc cleanups
