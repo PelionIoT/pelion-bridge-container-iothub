@@ -1,5 +1,7 @@
 arm PELION Device Shadow bridge for Microsoft IoTHub                  
   
+01/04/2019: Happy New Year! minor update to mbed-properties-editor
+
 11/26/2018: updated bridge - removed outdated scripts - no longer needed. Default IoTHub set to HTTP implementation.
 
 11/07/2018: updated bridge - new Google CloudIoT HTTP-based implementation (optional) in leu of MQTT
