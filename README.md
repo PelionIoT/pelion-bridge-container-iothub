@@ -1,5 +1,9 @@
 arm PELION Device Shadow bridge for Microsoft IoTHub                  
   
+08/29/2019: updated bridge - minor fixes/enhancements
+
+08/23/2019: updated bridge - minor update for mqtt
+
 08/20/2019: updated bridge - added key Pelion device attribute retrieval prior to twin creation
 
 08/13/2019: updated bridge - webhook fixes
